@@ -5,6 +5,7 @@ const
     mongoose = require('mongoose')
     MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/base`
 
+//add bodyParser middle ware for postman    
 mongoose.connect(MONGODB_URI, (err)=>{
    console.log(err|| "Connected to MongoDB")
 })
