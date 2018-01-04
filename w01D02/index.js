@@ -1,3 +1,6 @@
+//declarations of npm packagegs to be used in this file
+//file name is entry point for node app
+
 const   
     express = require('express')
     app = express()
